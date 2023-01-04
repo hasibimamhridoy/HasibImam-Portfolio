@@ -4,11 +4,11 @@
 }
 
 
-.header-container{
+.header-container {
     background-color: #faf0f0;
-    background-image: url('../assets/images/header_bg.png') , url('../assets/images/developer.png');
+    background-image: url('../assets/images/header_bg.png'), url('../assets/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right , left;
+    background-position: bottom right, left;
 }
 
 
@@ -105,40 +105,41 @@ nav .logo {
 
 }
 
-.banner-title{
+.banner-title {
     font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 85px;
-line-height: 116px;
-margin-top: 5px;
-margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
-.banner-description{
+.banner-description {
     font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-/* or 167% */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
 
 
-/* Dark 03 */
+    /* Dark 03 */
 
-color: #757575;
-margin-bottom: 30px;
+    color: #757575;
+    margin-bottom: 30px;
 }
 
 
-.contact-img{
+.contact-img {
     display: inline;
 }
 
-.contact-btn{
+.contact-btn {
     width: 150px;
     height: 55px;
-    border: 1px solid #FD6E0A; ;
+    border: 1px solid #FD6E0A;
+    ;
     border-radius: 5px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -149,5 +150,239 @@ margin-bottom: 30px;
     background: #FFF8F3;
     color: #FD6E0A;
     margin-left: 30px;
+
+}
+
+/*Header banner close*/
+
+/*About me Main*/
+
+.about-me-container {
+    max-height: 1140px;
+    background-color: #FFF8F3;
+    margin: 130px 230px;
+    border: none;
+    border-radius: 10px;
+}
+
+.about-me {
+    padding: 130px 156px;
+    text-align: center;
+
+}
+
+.about-me h4,
+p {
+    margin-bottom: 30px;
+
+}
+
+.about-me h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Dark 01 */
+
+    color: #181818;
+
+}
+
+.about-me p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    /* Dark 03 */
+
+    color: #757575;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th,
+tr {
+    padding: 0 50px;
+}
+
+/*about section close*/
+
+.what-i-do-container {
+    margin-top: 130px;
+}
+
+
+.what-i-do-h {
+    text-align: center;
+    margin: 30px 345px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Dark 01 */
+
+    color: #181818;
+}
+
+.what-i-do-p {
+    text-align: center;
+    margin: 30px 345px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    /* Dark 03 */
+
+    color: #757575;
+
+}
+
+
+
+
+.skilled {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+
+}
+
+.item {
+
+    margin: 30px 24px;
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+
+}
+
+.item img {
+
+    margin: 0px 0px 30px 0;
+
+
+}
+
+.item h2 {
+
+    margin: 0px 0px 20px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    /* Dark 01 */
+
+    color: #181818;
+
+
+}
+
+.item p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+
+    /* Dark 03 */
+
+    color: #757575;
+}
+
+
+
+/* Grid Summary */
+
+.summary h4{
+    margin: 130px 0px 113px 0px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: center;
+
+/* Dark 01 */
+
+color: #181818;
+}
+
+.grid-sum{
+    display: grid;
+    grid-template-columns:repeat(3 , 1fr);
+    grid-gap: 71px;
+
+    padding: 0px 230px;
+    margin-top: 113px 0 0 0;
     
+}
+
+.grid-item h1{
+    margin-top: 20px;
+}
+
+.grid-sum h1{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+
+/* Dark 02 */
+
+color: #474747;
+}
+
+.grid-sum h2{
+    margin: 30px 0 10px 0;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 34px;
+}
+
+.grid-sum p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+
+/* Dark 03 */
+
+color: #757575;
 }
