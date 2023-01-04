@@ -343,6 +343,7 @@ color: #181818;
     grid-template-columns:repeat(3 , 1fr);
     grid-gap: 71px;
 
+    position: relative;
     padding: 0px 230px;
     margin-top: 113px 0 0 0;
     
@@ -371,18 +372,129 @@ color: #474747;
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
-font-size: 25px;
+font-size: 20px;
 line-height: 34px;
+}
+
+.grid-sum .h-unuversity{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
 }
 
 .grid-sum p{
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
-font-size: 20px;
+font-size: 10px;
 line-height: 27px;
 
 /* Dark 03 */
 
 color: #757575;
+}
+
+
+
+.mid-btn{
+    display: flex;
+    padding: 0 10px;
+
+}
+
+.download-btn{
+    
+    width: 180px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    cursor: pointer;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    
+    margin: 50px auto 113px auto;
+    
+    
+
+}
+
+/*Footer*/
+
+.footer-container{
+    background-color: #FFF8F3;
+    display: flex;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    justify-content: space-between;
+    padding: 0px 230px;
+    margin-top:113px;
+}
+
+.footer input{
+    display: block;
+    margin: 20px 0px;
+    background-color: #FFFFFF;
+    padding: 15px 200px 15px 18px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.footer textarea{
+    width: 347px;
+    height: 191px;
+    border-radius: 5px;
+    padding: 15px;
+    display:block;
+    
+}
+
+input:focus{
+    outline: #f07d2b;
+    outline-style:solid;
+    outline-width: 1px;
+}
+
+
+
+    textarea:focus{
+        outline: none;
+        border: none;
+   
+    
+}
+
+.submit-btn{
+    
+    
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        cursor: pointer;
+        background-color: #FD6E0A;
+        color: #FFFFFF;
+        margin: 20px 0px 24px 0px;
+        
+}
+
+.letsConnect h1,img{
+    margin-bottom: 10px;
+}
+
+.letsConnect .social-icon{
+    margin:15px 5px 0px 0px;
 }
