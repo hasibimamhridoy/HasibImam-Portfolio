@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.header-container{
+    background-color: #faf0f0;
+    background-image: url('../assets/images/header_bg.png') , url('../assets/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
+}
+
+
+/* Navbar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 225px;
+    background-color: #faf0f0;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+nav .logo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+
+    /* Dark 01 */
+
+    color: #181818;
+}
+
+.btn-primary {
+    width: 150px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    cursor: pointer;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+
+}
+
+.btn-primary:hover {
+
+    background-color: #f07d2b;
+    color: #faf0f0;
+
+}
+
+.menu-hover:hover {
+
+    color: #f07d2b
+}
+
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+/* Navbar  End*/
+
+
+/* Header Bannner*/
+
+.header-banner {
+    display: flex;
+    margin: 50px 225px;
+    justify-content: space-between;
+}
+
+.banner-sub-title {
+    color: #474747;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+
+}
+
+.banner-title{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 85px;
+line-height: 116px;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+
+.banner-description{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+
+/* Dark 03 */
+
+color: #757575;
+margin-bottom: 30px;
+}
+
+
+.contact-img{
+    display: inline;
+}
+
+.contact-btn{
+    width: 150px;
+    height: 55px;
+    border: 1px solid #FD6E0A; ;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    cursor: pointer;
+    background: #FFF8F3;
+    color: #FD6E0A;
+    margin-left: 30px;
+    
+}
