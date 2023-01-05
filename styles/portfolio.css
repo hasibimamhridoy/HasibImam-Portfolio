@@ -53,7 +53,7 @@ nav .logo {
 }
 
 .btn-primary {
-    width: 150px;
+    padding: 2px 30px 0px 30px;
     height: 55px;
     border: none;
     border-radius: 5px;
@@ -67,6 +67,10 @@ nav .logo {
     color: #FFFFFF;
     background-image: linear-gradient(rgb(83, 8, 189),rgb(111, 1, 189))
 
+}
+
+.btn-primary i{
+    padding: 0 12px;
 }
 
 .btn-primary:hover {
@@ -154,26 +158,29 @@ nav .logo {
 
 
 .contact-btn {
-    width: 150px;
-    height: 55px;
-    border: 1px solid #FD6E0A;
-    ;
-    border-radius: 5px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-    cursor: pointer;
-    background: #FFF8F3;
-    color: #FD6E0A;
-    margin-left: 30px;
-
-}
+    
+        padding: 2px 20px 0px 10px;
+        height: 55px;
+        border: 1px solid blueviolet;
+        border-radius: 5px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        cursor: pointer;
+        /* background-color: #FD6E0A; */
+        color: #000;
+        
+    
+    }
+    
+    .contact-btn i{
+        padding: 0 12px;
+    }
 
 .contact-btn:hover{
     color: azure;
-    border: 1px solid white;
     background-image: linear-gradient(rgba(77, 189, 8, 0.733),rgb(35, 189, 1))
 }
 
